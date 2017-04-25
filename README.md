@@ -1,6 +1,6 @@
 # npmdoc-koa-views
 
-#### api documentation for  koa-views (v6.0.2)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-views.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-views) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-views.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-views)
+#### basic api documentation for  [koa-views (v6.0.2)](https://github.com/queckezz/koa-views#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-views.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-views) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-views.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-views)
 
 #### Template rendering middleware for koa
 
@@ -21,22 +21,19 @@
 ```json
 
 {
-    "name": "koa-views",
-    "version": "6.0.2",
-    "description": "Template rendering middleware for koa",
-    "main": "src/index.js",
-    "scripts": {
-        "lint": "eslint .",
-        "xyz": "xyz",
-        "test": "mocha --reporter dot --bail"
+    "author": {
+        "name": "queckezz"
     },
-    "precommit": "lint, test",
+    "bugs": {
+        "url": "https://github.com/queckezz/koa-views/issues"
+    },
     "dependencies": {
         "consolidate": "^0.14.1",
         "debug": "^2.1.3",
         "koa-send": "^4.0.0",
         "mz": "^2.4.0"
     },
+    "description": "Template rendering middleware for koa",
     "devDependencies": {
         "ejs": "^2.4.1",
         "eslint": "^2.2.0",
@@ -56,13 +53,13 @@
         "underscore": "^1.8.3",
         "xyz": "^0.5.0"
     },
-    "peerDependencies": {
-        "koa": "2.x"
+    "directories": {},
+    "dist": {
+        "shasum": "0c8252589dbbdd63e30896080942b4bf4b0e5214",
+        "tarball": "https://registry.npmjs.org/koa-views/-/koa-views-6.0.2.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/queckezz/koa-views"
-    },
+    "gitHead": "eb5c9587ef5d7a9569f520f4a1b8f9d982311d1e",
+    "homepage": "https://github.com/queckezz/koa-views#readme",
     "keywords": [
         "koa",
         "render",
@@ -71,11 +68,32 @@
         "templating",
         "templates"
     ],
-    "author": "queckezz",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/queckezz/koa-views/issues"
+    "main": "src/index.js",
+    "maintainers": [
+        {
+            "name": "int64ago"
+        },
+        {
+            "name": "queckezz"
+        }
+    ],
+    "name": "koa-views",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "koa": "2.x"
     },
+    "precommit": "lint, test",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/queckezz/koa-views.git"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "mocha --reporter dot --bail",
+        "xyz": "xyz"
+    },
+    "version": "6.0.2",
     "bin": {}
 }
 ```
